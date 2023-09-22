@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas de Texto y Multimedia </title>
+</head>
+
+<body>
+  <!-- Encabezados -->
+  <h1>Encabezado principal - nivel 1</h2>
+    <h2>Encabezado principal - nivel 2</h2>
+    <h3>Encabezado principal - nivel 3</h3>
+    <h4>Encabezado principal - nivel 4</h4>
+    <h5>Encabezado principal - nivel 5</h5>
+    <h6>Encabezado principal - nivel 6</h6>
+
+    <!-- Etiquetas de Texto -->
+    <!-- 
+      p    -> parrafo
+      i    -> cursiva
+      u    -> subrayado
+      mark -> resaltado
+      b    -> negrilla
+     -->
+    <p>Hola mundo, esta es mi <b>NEGRILLA</b> primera aplicación web</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero error minus <i>CURSIVA</i> placeat nemo, assumenda
+      expedita
+      quaerat, <u>SUBRAYADO</u> magnam incidunt temporibus at modi dolorem blanditiis <mark>RESALTADO</mark> in cum
+      obcaecati ea quis. Nostrum, <i><b>CURSIVA Y NEGRILLA</b></i> provident?</p>
+
+    <!-- Etiquetas multimedia -->
+    <!-- 
+      img   -> imagenes
+        src    -> atributo para linkear imagen
+        width  -> atributo ancho imagen
+        height -> atributo alto de imagen
+        alt    -> texto alternativo para cuando no cargue la imagen
+        
+
+      figure -> contenedor imagenes con descripcion
+        lleva dentro etiquetas img y figcaption
+
+      video  -> videos  
+        src
+        controls
+
+      audio -> audios
+        src
+        controls
+
+      iframe -> sirve para embeber un video de youtube, contenido web, etc No todas las paginas permiten embeber
+        mismos atributos de img  
+     -->
+
+    <img src="" alt="">
+    <br>
+    <video src="" controls></video>
+    <br>
+    <audio src="" controls></audio>
+    <br>
+
+    <!-- Ejemplo imagen -->
+    <img
+      src="https://ca-times.brightspotcdn.com/dims4/default/796e6c9/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001"
+      width="25%" id="gatico">
+    <br>
+    <!-- Etiquetas de salto
+    br  -> salto de linea
+    hr  -> linea horizontal de separacion      
+    -->
+    <br>
+    <hr>
+    <br>
+
+    <!-- Ejemplo video embebido - iframe -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127257.24412293478!2d-74.20482716002877!3d4.631719280764977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a286d598bd5%3A0xddf14904a87dfb47!2sUniversidad%20Distrital%20Francisco%20Jos%C3%A9%20de%20Caldas!5e0!3m2!1ses-419!2sco!4v1693963761648!5m2!1ses-419!2sco"
+      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+
+
+
+</body>
+
+</html>

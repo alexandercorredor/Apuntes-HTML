@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enlaces y Formularios</title>
+</head>
+
+<body>
+
+  <h1 id="titulo-principal">Enlaces y Formularios HTML</h1>
+
+  <h2>Enlaces</h2>
+
+  <h3>Enlaces externos</h3>
+  <p>Los enlaces externos dirigen a otros sitios web</p>
+
+  <a href="https://aulasvirtuales.udistrital.edu.co/course/view.php?id=11467">Click para ingresar al Curso de
+    Backend</a>
+  <br>
+  <a href="https://www.udistrital.edu.co/inicio" target="_blank">Click para ir a la UD</a>
+  <br>
+
+  <h3>Enlaces a otros documentos HTML</h3>
+  <h5>Temario del curso hasta el momento</h5>
+  <ol>
+    <li><a href="text-multimedia.html#gatico">Ir al gatico en multimedia</a></li>
+    <li><a href="listas-tablas.html">Etiquetas de listas y Tablas</a></li>
+  </ol>
+
+  <h3>Enlaces internos</h3>
+  <p>Hacen referencia a partes o secciones de la misma página, se requiere id o identificador.</p>
+  <a href="#titulo-principal">Volver al Inicio</a>
+
+  <h2>Formularios</h2>
+
+  <!-- 
+form     -> etiqueta principal de formulario
+label    -> etiqueta nombre de campo
+textarea -> area de texto, comentarios
+select   -> para seleccion - va con option
+input -> text, number, password, image, button, radio, flie, color, etc
+-->
+  <h3>Ejemplo de Formulario</h3>
+  <form>
+    <label for="">Nombre</label>
+    <input type="text" name="" id="" placeholder="Ingrese su nombre">
+    <br>
+    <label for="">Edad</label>
+    <input type="number" placeholder="Ingrese su edad">
+    <br>
+    <label for="">Contraseña</label>
+    <input type="password" placeholder="Ingrese la contraseña">
+    <br>
+    <label for="">Correo</label>
+    <input type="email" placeholder="Ingrese su correo" required>
+    <br>
+    <label for="">Fecha de nacimiento</label>
+    <input type="date">
+    <br>
+    <input type="checkbox">
+    <label for="">Acepta términos y condiciones</label>
+    <br>
+    <input type="submit" value="Registrate!">
+  </form>
+  <br><br>
+
+  <h3>Inscripciones Atenea</h3>
+  <form>
+    <label for="">Nombres</label>
+    <input type="text" placeholder="Ingrese sus nombres" required> <br>
+    <label for="">Tipo de documento</label>
+    <select required>
+      <option>-- Selecciona una opción --</option>
+      <option value="rc">Registro civil</option>
+      <option value="ti">Tarjeta de identidad</option>
+      <option value="cc">Cédula de ciudadanía</option>
+    </select> <br>
+    <label for="">Documento</label>
+    <input type="number" placeholder="Número de documento" required> <br>
+    <label for="">Razones para ingresar</label> <br>
+    <textarea cols="30" rows="10" placeholder="Ingrese sus razones"></textarea> <br>
+    <input type="submit" value="Inscribirse">
+  </form>
+
+
+
+
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+
+</html>
